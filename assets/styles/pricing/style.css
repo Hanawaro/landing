@@ -1,0 +1,75 @@
+main {
+  padding: 1.5em 8em;
+}
+main .filter {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em 0;
+  margin-bottom: 2em;
+  background-color: var(--white);
+  border-radius: 1em;
+  gap: 3em;
+}
+main .filter > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  flex-basis: 20%;
+  min-width: 28ch;
+}
+main .filter .variables {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+main .filter .variables label {
+  user-select: none;
+  -webkit-user-select: none;
+}
+main .filter .variables input {
+  margin-right: 1em;
+}
+main .filter .variables .indicator.disabled {
+  visibility: hidden;
+}
+main .filter h2 {
+  font-size: 1.2em;
+}
+main .carts {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+main .carts .cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 20%;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: var(--white);
+  text-align: center;
+  min-width: 20ch;
+}
+main .carts .cart h1 {
+  font-size: 1.5em;
+}
+main .carts .cart p {
+  margin-bottom: 0.5em;
+}
+main .carts .cart span {
+  color: var(--black);
+}
+main .carts .cart .recommended {
+  color: var(--blue);
+}
+main .carts .cart .recommended.disabled {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

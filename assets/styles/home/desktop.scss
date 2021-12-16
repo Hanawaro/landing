@@ -1,0 +1,172 @@
+// HEADER SECTION
+
+.header {
+  .content {
+    a {
+      transition: 0.4s;
+    }
+
+    #watch-video-btn:hover {
+      background-color: var(--white);
+      transform: scale(1.1);
+    }
+  }
+}
+
+// IPHONE FEATURES SECTION
+
+.iphone-features {
+  img {
+    transform: translateX(-30%);
+  }
+
+  .iphone-features-info {
+    min-width: 40ch;
+    transform: translateX(-40%);
+
+    a {
+      transition: 0.4s;
+    }
+
+    #try-to-huck-up-btn:hover {
+      background-color: var(--dark-blue);
+    }
+
+    #learn-more-btn:hover {
+      background-color: var(--grey-1310);
+    }
+  }
+}
+
+// MAP FEATURES SECTION
+
+.map-features {
+  .map-features-world {
+    transform: translateX(30%);
+
+    .world-map {
+      position: relative;
+    }
+
+    .world-map-dots {
+      position: absolute;
+      top: 100px;
+      left: 132px;
+    }
+  }
+
+  .map-features-info {
+    min-width: 35ch;
+    transform: translateX(45%);
+  }
+}
+
+// READY TO BUY SECTION
+
+.ready-to-buy {
+  form {
+    input {
+      width: 32ch;
+    }
+
+    button {
+      transition: 0.4s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--dark-green);
+      }
+    }
+  }
+}
+
+// CUSTOMERS SECTION
+
+.customers {
+  .content {
+    width: 60ch;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .visible {
+    opacity: 0.5;
+  }
+
+  .previous-arrow-btn {
+    left: 17vw;
+  }
+
+  .next-arrow-btn {
+    right: 17vw;
+  }
+}
+
+// PLAN SECTION
+
+.plan {
+  .switcher > * {
+    text-align: left;
+  }
+
+  .cart {
+    min-width: 32ch;
+    max-width: 45ch;
+
+    &.active a:hover {
+      background-color: var(--dark-blue);
+    }
+
+    a:hover {
+      color: var(--white);
+      background-color: var(--blue);
+    }
+
+    #individual-plan-cart .cart-bg {
+      border-radius: 0.5em 0 0 0.5em;
+    }
+
+    #company-plan-cart .cart-bg {
+      border-radius: 0 0.5em 0.5em 0;
+    }
+  }
+}
+
+// SUBSCRIBE SECTION
+
+.subscribe {
+  form {
+    input {
+      width: 32ch;
+    }
+
+    button {
+      transition: 0.4s;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--dark-green);
+      }
+    }
+  }
+}
+
+// FOOTER
+
+footer {
+  .references {
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+// ======== TEMPLATES ========
+
+// TEMPLATE DOWNLOAD BUTTON
+
+.download-appstore-btn:hover {
+  transform: scale(1.1);
+}

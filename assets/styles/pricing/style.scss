@@ -1,0 +1,81 @@
+main {
+  padding: 1.5em 8em;
+
+
+  .filter {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em 0;
+    margin-bottom: 2em;
+    background-color: var(--white);
+    border-radius: 1em;
+    gap: 3em;
+
+    & > div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      gap: 1em;
+      flex-basis: 20%;
+      min-width: 28ch;
+    }
+    .variables {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+
+      label {
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      input {
+        margin-right: 1em;
+      }
+      .indicator.disabled {
+        visibility: hidden;
+      }
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+  }
+
+  .carts {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+
+    .cart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      flex-basis: 20%;
+      padding: 1em;
+      border-radius: 1em;
+      background-color: var(--white);
+      text-align: center;
+      min-width: 20ch;
+
+      h1 {
+        font-size: 1.5em;
+      }
+      p {
+        margin-bottom: 0.5em;
+      }
+      span {
+        color: var(--black);
+      }
+      .recommended {
+        color: var(--blue);
+
+        &.disabled {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}

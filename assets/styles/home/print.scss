@@ -1,0 +1,56 @@
+
+.print {
+  *:not(.burger) {
+    color: black !important;
+    background: none !important;
+    border: none !important;
+  }
+
+  img:not(.customers img) {
+    display: none !important;
+  }
+
+  *:not(.burger)::after, *:not(.burger)::before {
+    display: none !important;
+  }
+
+  section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .header .content {
+    #watch-video-btn {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .section-mobile-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6em;
+    //padding: 2em;
+
+    section {
+      flex-basis: 40%;
+      padding: 0;
+      overflow: visible;
+
+      h2 {
+        text-align: left;
+      }
+
+      & > * {
+        min-width: 32ch;
+        flex-basis: 0 !important;
+        transform: none !important;
+      }
+    }
+  }
+
+  .iphone-screens {
+    display: none;
+  }
+}

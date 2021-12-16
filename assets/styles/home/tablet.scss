@@ -1,0 +1,92 @@
+// IPHONE FEATURES SECTION
+
+.iphone-features {
+  .row {
+    gap: 2em;
+    justify-content: flex-start;
+  }
+}
+
+// IPHONE FEATURES AND MAP FEATURES SECTIONS
+
+.section-mobile-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6em;
+  padding: 2em;
+  margin-bottom: 3em;
+
+  section {
+    flex-basis: calc(40%);
+    padding: 0;
+    overflow: visible;
+
+    & > * {
+      min-width: 32ch;
+      flex-basis: 100%;
+    }
+  }
+}
+
+// CUSTOMERS SECTION
+
+.customers {
+  .visible {
+    opacity: 0.5;
+  }
+
+  .content {
+    width: 60ch;
+  }
+
+  .previous-arrow-btn {
+    left: 15vw;
+  }
+
+  .next-arrow-btn {
+    right: 15vw;
+  }
+}
+
+// PLAN SECTION
+
+.plan {
+  flex-direction: column;
+
+  .switcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > * {
+      text-align: center;
+    }
+  }
+
+  .cart {
+    min-width: 32ch;
+    max-width: 45ch;
+
+    #individual-plan-cart .cart-bg {
+      border-radius: 0.5em 0 0 0.5em;
+    }
+
+    #company-plan-cart .cart-bg {
+      border-radius: 0 0.5em 0.5em 0;
+    }
+  }
+}
+
+// FOOTER
+
+footer {
+  padding: 3em 5em;
+
+  .references {
+    &::after {
+      width: 100%;
+    }
+  }
+}

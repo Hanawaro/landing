@@ -1,0 +1,43 @@
+.print *:not(.burger) {
+  color: black !important;
+  background: none !important;
+  border: none !important;
+}
+.print img:not(.customers img) {
+  display: none !important;
+}
+.print *:not(.burger)::after, .print *:not(.burger)::before {
+  display: none !important;
+}
+.print section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.print .header .content #watch-video-btn {
+  margin-bottom: 0 !important;
+}
+.print .section-mobile-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6em;
+}
+.print .section-mobile-row section {
+  flex-basis: 40%;
+  padding: 0;
+  overflow: visible;
+}
+.print .section-mobile-row section h2 {
+  text-align: left;
+}
+.print .section-mobile-row section > * {
+  min-width: 32ch;
+  flex-basis: 0 !important;
+  transform: none !important;
+}
+.print .iphone-screens {
+  display: none;
+}
+
+/*# sourceMappingURL=print.css.map */

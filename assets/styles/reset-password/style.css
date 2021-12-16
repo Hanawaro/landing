@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+body form {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  background-color: var(--white);
+  border-radius: 1em;
+  gap: 1em;
+}
+body form h2 {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+body form div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body form label {
+  display: flex;
+  justify-content: center;
+}
+body form input {
+  padding: 0.5em 1em;
+  border: 1px solid silver;
+  border-radius: 0.5em;
+  font-size: 1em;
+}
+body form input[type=submit] {
+  color: var(--white);
+  background-color: var(--blue);
+  cursor: pointer;
+  border: none;
+  padding: 0.5em 3em;
+  transition: 0.2s;
+}
+body form input:focus {
+  border: 1px solid var(--blue);
+  outline: none;
+}
+body form .error {
+  color: red;
+}
+body form .success {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

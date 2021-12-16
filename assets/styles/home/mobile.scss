@@ -1,0 +1,174 @@
+// HEADER SECTION
+
+.header {
+  p {
+    width: 80%;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+// IPHONE FEATURES AND MAP FEATURES SECTIONS
+
+.section-mobile-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6em;
+  padding: 2em;
+  margin-bottom: 3em;
+
+  section {
+    flex-basis: 40%;
+    padding: 0;
+    overflow: visible;
+
+    h2 {
+      text-align: left;
+    }
+
+    & > * {
+      min-width: 32ch;
+      flex-basis: 100%;
+    }
+  }
+}
+
+// IPHONE FEATURES SECTION
+
+.iphone-features {
+  .row {
+    justify-content: flex-start;
+  }
+}
+
+// MAP SECTION
+
+.iphone-features h2, .map-features h2 {
+  text-align: center;
+}
+
+// IPHONE SCREENS SECTION
+
+.iphone-screens {
+  img {
+    height: 60vh;
+  }
+}
+
+// READY TO BUY SECTION
+
+.ready-to-buy {
+  form input {
+    width: 10ch;
+  }
+}
+
+// CUSTOMERS SECTION
+
+.customers {
+  .previous-arrow-btn {
+    left: 10vw;
+  }
+
+  .next-arrow-btn {
+    right: 12vw;
+  }
+
+  .visible {
+    opacity: 0;
+  }
+
+  .content {
+    width: 32ch;
+  }
+}
+
+// PLAN SECTION
+
+.plan {
+  padding: 6em 0;
+  flex-direction: column;
+
+  .switcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > * {
+      text-align: center;
+    }
+  }
+
+  .plans {
+    flex-direction: column;
+    gap: 1em;
+
+    .cart {
+      min-width: 30ch;
+
+      &.active .cart-bg {
+        transform: scale(1);
+      }
+
+      .cart-bg {
+        border-radius: 0.5em;
+      }
+    }
+  }
+}
+
+// SUBSCRIBE SECTION
+
+.subscribe {
+  form input {
+    width: 10ch;
+  }
+}
+
+// FOOTER
+
+footer {
+  padding: 3em 0;
+
+  .references {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+
+    &::after {
+      width: 70%;
+    }
+
+    .left-column {
+      align-items: center;
+
+      .logo, p {
+        text-align: center;
+      }
+    }
+
+    .right-column {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2em;
+
+      div {
+
+        text-align: center;
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+  }
+}

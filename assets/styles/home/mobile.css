@@ -1,0 +1,123 @@
+.header p {
+  width: 80%;
+}
+.header p br {
+  display: none;
+}
+
+.section-mobile-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6em;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+.section-mobile-row section {
+  flex-basis: 40%;
+  padding: 0;
+  overflow: visible;
+}
+.section-mobile-row section h2 {
+  text-align: left;
+}
+.section-mobile-row section > * {
+  min-width: 32ch;
+  flex-basis: 100%;
+}
+
+.iphone-features .row {
+  justify-content: flex-start;
+}
+
+.iphone-features h2, .map-features h2 {
+  text-align: center;
+}
+
+.iphone-screens img {
+  height: 60vh;
+}
+
+.ready-to-buy form input {
+  width: 10ch;
+}
+
+.customers .previous-arrow-btn {
+  left: 10vw;
+}
+.customers .next-arrow-btn {
+  right: 12vw;
+}
+.customers .visible {
+  opacity: 0;
+}
+.customers .content {
+  width: 32ch;
+}
+
+.plan {
+  padding: 6em 0;
+  flex-direction: column;
+}
+.plan .switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plan .switcher > * {
+  text-align: center;
+}
+.plan .plans {
+  flex-direction: column;
+  gap: 1em;
+}
+.plan .plans .cart {
+  min-width: 30ch;
+}
+.plan .plans .cart.active .cart-bg {
+  transform: scale(1);
+}
+.plan .plans .cart .cart-bg {
+  border-radius: 0.5em;
+}
+
+.subscribe form input {
+  width: 10ch;
+}
+
+footer {
+  padding: 3em 0;
+}
+footer .references {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+footer .references::after {
+  width: 70%;
+}
+footer .references .left-column {
+  align-items: center;
+}
+footer .references .left-column .logo, footer .references .left-column p {
+  text-align: center;
+}
+footer .references .right-column {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+footer .references .right-column div {
+  text-align: center;
+}
+footer .copyright {
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+/*# sourceMappingURL=desktop.css.map */

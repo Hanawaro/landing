@@ -1,0 +1,8 @@
+main {
+  padding: 1.5em 2em;
+}
+main .filter > div label {
+  min-width: 10ch;
+}
+
+/*# sourceMappingURL=desktop.css.map */

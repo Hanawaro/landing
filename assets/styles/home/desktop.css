@@ -1,0 +1,109 @@
+.header .content a {
+  transition: 0.4s;
+}
+.header .content #watch-video-btn:hover {
+  background-color: var(--white);
+  transform: scale(1.1);
+}
+
+.iphone-features img {
+  transform: translateX(-30%);
+}
+.iphone-features .iphone-features-info {
+  min-width: 40ch;
+  transform: translateX(-40%);
+}
+.iphone-features .iphone-features-info a {
+  transition: 0.4s;
+}
+.iphone-features .iphone-features-info #try-to-huck-up-btn:hover {
+  background-color: var(--dark-blue);
+}
+.iphone-features .iphone-features-info #learn-more-btn:hover {
+  background-color: var(--grey-1310);
+}
+
+.map-features .map-features-world {
+  transform: translateX(30%);
+}
+.map-features .map-features-world .world-map {
+  position: relative;
+}
+.map-features .map-features-world .world-map-dots {
+  position: absolute;
+  top: 100px;
+  left: 132px;
+}
+.map-features .map-features-info {
+  min-width: 35ch;
+  transform: translateX(45%);
+}
+
+.ready-to-buy form input {
+  width: 32ch;
+}
+.ready-to-buy form button {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.ready-to-buy form button:hover {
+  background-color: var(--dark-green);
+}
+
+.customers .content {
+  width: 60ch;
+}
+.customers button {
+  cursor: pointer;
+}
+.customers .visible {
+  opacity: 0.5;
+}
+.customers .previous-arrow-btn {
+  left: 17vw;
+}
+.customers .next-arrow-btn {
+  right: 17vw;
+}
+
+.plan .switcher > * {
+  text-align: left;
+}
+.plan .cart {
+  min-width: 32ch;
+  max-width: 45ch;
+}
+.plan .cart.active a:hover {
+  background-color: var(--dark-blue);
+}
+.plan .cart a:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+.plan .cart #individual-plan-cart .cart-bg {
+  border-radius: 0.5em 0 0 0.5em;
+}
+.plan .cart #company-plan-cart .cart-bg {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+.subscribe form input {
+  width: 32ch;
+}
+.subscribe form button {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.subscribe form button:hover {
+  background-color: var(--dark-green);
+}
+
+footer .references::after {
+  width: 100%;
+}
+
+.download-appstore-btn:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=desktop.css.map */
